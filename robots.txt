@@ -1,4 +1,4 @@
-# robots.txt for https://wpstarback-pdvn.vercel.app/
+# robots.txt for https://wpstarback-pdvn.vercel.app
 
 User-agent: *
 Allow: /
