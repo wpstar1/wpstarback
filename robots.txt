@@ -1,4 +1,4 @@
-# robots.txt for https://wpstarback.vercel.app/
+# robots.txt for https://wpstarback-pdvn.vercel.app/
 
 User-agent: *
 Allow: /
@@ -28,7 +28,7 @@ User-agent: Slurp
 Allow: /
 
 # 사이트맵 위치
-Sitemap: https://wpstarback.vercel.app/sitemap.xml
+Sitemap: https://wpstarback-pdvn.vercel.app/sitemap.xml
 
 # 크롤링 속도 (1초당 1회)
 Crawl-delay: 1

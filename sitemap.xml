@@ -6,7 +6,7 @@
 
     <!-- 메인 페이지 -->
     <url>
-        <loc>https://wpstarback.vercel.app/</loc>
+        <loc>https://wpstarback-pdvn.vercel.app/</loc>
         <lastmod>2025-01-15</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -14,21 +14,21 @@
 
     <!-- 프로필 백링크 상품 -->
     <url>
-        <loc>https://wpstarback.vercel.app/#profile-60</loc>
+        <loc>https://wpstarback-pdvn.vercel.app/#profile-60</loc>
         <lastmod>2025-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://wpstarback.vercel.app/#profile-125</loc>
+        <loc>https://wpstarback-pdvn.vercel.app/#profile-125</loc>
         <lastmod>2025-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://wpstarback.vercel.app/#profile-240</loc>
+        <loc>https://wpstarback-pdvn.vercel.app/#profile-240</loc>
         <lastmod>2025-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
@@ -36,21 +36,21 @@
 
     <!-- 웹2.0 백링크 상품 -->
     <url>
-        <loc>https://wpstarback.vercel.app/#web20-1000</loc>
+        <loc>https://wpstarback-pdvn.vercel.app/#web20-1000</loc>
         <lastmod>2025-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://wpstarback.vercel.app/#web20-2500</loc>
+        <loc>https://wpstarback-pdvn.vercel.app/#web20-2500</loc>
         <lastmod>2025-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://wpstarback.vercel.app/#web20-5000</loc>
+        <loc>https://wpstarback-pdvn.vercel.app/#web20-5000</loc>
         <lastmod>2025-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
@@ -58,21 +58,21 @@
 
     <!-- 도메인 권한 상승 프로그램 -->
     <url>
-        <loc>https://wpstarback.vercel.app/#domain-30</loc>
+        <loc>https://wpstarback-pdvn.vercel.app/#domain-30</loc>
         <lastmod>2025-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://wpstarback.vercel.app/#domain-40</loc>
+        <loc>https://wpstarback-pdvn.vercel.app/#domain-40</loc>
         <lastmod>2025-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://wpstarback.vercel.app/#domain-50</loc>
+        <loc>https://wpstarback-pdvn.vercel.app/#domain-50</loc>
         <lastmod>2025-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
@@ -80,21 +80,21 @@
 
     <!-- 맞춤형 프로그램 -->
     <url>
-        <loc>https://wpstarback.vercel.app/#program-10000</loc>
+        <loc>https://wpstarback-pdvn.vercel.app/#program-10000</loc>
         <lastmod>2025-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://wpstarback.vercel.app/#program-30000</loc>
+        <loc>https://wpstarback-pdvn.vercel.app/#program-30000</loc>
         <lastmod>2025-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://wpstarback.vercel.app/#program-70000</loc>
+        <loc>https://wpstarback-pdvn.vercel.app/#program-70000</loc>
         <lastmod>2025-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -102,21 +102,21 @@
 
     <!-- 올인원 패키지 -->
     <url>
-        <loc>https://wpstarback.vercel.app/#bundle-basic</loc>
+        <loc>https://wpstarback-pdvn.vercel.app/#bundle-basic</loc>
         <lastmod>2025-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.95</priority>
     </url>
 
     <url>
-        <loc>https://wpstarback.vercel.app/#bundle-popular</loc>
+        <loc>https://wpstarback-pdvn.vercel.app/#bundle-popular</loc>
         <lastmod>2025-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.95</priority>
     </url>
 
     <url>
-        <loc>https://wpstarback.vercel.app/#bundle-premium</loc>
+        <loc>https://wpstarback-pdvn.vercel.app/#bundle-premium</loc>
         <lastmod>2025-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.95</priority>
