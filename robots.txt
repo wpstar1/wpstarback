@@ -1,0 +1,34 @@
+# robots.txt for https://wpstarback.vercel.app/
+
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /style.css
+Allow: /script.js
+
+# 크롤링 제외할 파일들
+Disallow: /admin/
+Disallow: /*.json$
+Disallow: /private/
+
+# 검색엔진별 설정
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Yeti
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# 사이트맵 위치
+Sitemap: https://wpstarback.vercel.app/sitemap.xml
+
+# 크롤링 속도 (1초당 1회)
+Crawl-delay: 1
