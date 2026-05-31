@@ -4,9 +4,9 @@ const products = {
         name: '프로필 백링크 60개',
         price: '6.5만원',
         originalPrice: '13만원',
-        badge: '🏆 가성비갑',
+        badge: '가성비갑',
         features: [
-            '🏆 가성비갑',
+            '가성비갑',
             'DA 80+ 권위 사이트 60개',
             '100% 수작업으로 안전하게 구축',
             '구글 검색 상위노출 최적화',
@@ -47,9 +47,9 @@ const products = {
         name: '프로필 백링크 125개',
         price: '9.5만원',
         originalPrice: '19만원',
-        badge: '🔥 주문많음',
+        badge: '주문많음',
         features: [
-            '🔥 주문많음',
+            '주문많음',
             'DA 80+ 권위 사이트 125개',
             '더 빠른 순위 상승 효과',
             '다양한 카테고리 사이트 믹스',
@@ -92,9 +92,9 @@ const products = {
         name: '프로필 백링크 240개',
         price: '16.5만원',
         originalPrice: '33만원',
-        badge: '⭐ 추천',
+        badge: '추천',
         features: [
-            '⭐ 추천',
+            '추천',
             'DA 80+ 권위 사이트 240개',
             '최고의 순위 상승 효과 경험',
             '프리미엄 사이트 우선 배치',
@@ -138,9 +138,9 @@ const products = {
         name: '웹2.0 백링크 스타터 패키지',
         price: '6.5만원',
         originalPrice: '13만원',
-        badge: '🏆 가성비갑',
+        badge: '가성비갑',
         features: [
-            '🏆 가성비갑',
+            '가성비갑',
             '백링크 1,000개 대량 구축',
             'DA 30~70 검증된 사이트',
             '100% 수동 작업으로 안전',
@@ -179,9 +179,9 @@ const products = {
         name: '웹2.0 백링크 프로페셔널 패키지',
         price: '11.5만원',
         originalPrice: '23만원',
-        badge: '🔥 주문많음',
+        badge: '주문많음',
         features: [
-            '🔥 주문많음',
+            '주문많음',
             '백링크 2,500개 강력 구축',
             'DA 30~70 고품질 사이트',
             '100% 수동 작업 완벽 수행',
@@ -223,9 +223,9 @@ const products = {
         name: '웹2.0 백링크 엔터프라이즈 패키지',
         price: '19.5만원',
         originalPrice: '39만원',
-        badge: '⭐ 추천',
+        badge: '추천',
         features: [
-            '⭐ 추천',
+            '추천',
             '백링크 5,000개 대규모 구축',
             'DA 30~70 프리미엄 사이트',
             '100% 수동 작업 전문가 투입',
@@ -265,9 +265,9 @@ const products = {
         name: '도메인 권한 상승 베이직 패키지',
         price: '6.5만원',
         originalPrice: '13만원',
-        badge: '🏆 가성비갑',
+        badge: '가성비갑',
         features: [
-            '🏆 가성비갑',
+            '가성비갑',
             '도메인 권한 +30점 상승',
             '랭킹 변화 즉시 체감 가능',
             '영구적 효과 지속',
@@ -305,9 +305,9 @@ const products = {
         name: '도메인 권한 상승 프리미엄 패키지',
         price: '16.5만원',
         originalPrice: '33만원',
-        badge: '🔥 주문많음',
+        badge: '주문많음',
         features: [
-            '🔥 주문많음',
+            '주문많음',
             '도메인 권한 +40점 급상승',
             '랭킹 변화 즉시 체감 효과',
             '영구적 효과 평생 지속',
@@ -350,9 +350,9 @@ const products = {
         name: '도메인 권한 상승 엔터프라이즈 패키지',
         price: '21만원',
         originalPrice: '42만원',
-        badge: '⭐ 추천',
+        badge: '추천',
         features: [
-            '⭐ 추천',
+            '추천',
             '도메인 권한 +50점 최대 상승',
             '랭킹 변화 즉시 체감 극대화',
             '영구적 효과 완벽 유지',
@@ -393,9 +393,9 @@ const products = {
         name: '워드프레스 백링크 스타터 패키지',
         price: '8.5만원',
         originalPrice: '17만원',
-        badge: '🏆 가성비갑',
+        badge: '가성비갑',
         features: [
-            '🏆 가성비갑',
+            '가성비갑',
             '백링크 10,000개 자동 생성',
             '작업기간: 약 4일 초고속',
             '서브 홈페이지 무료 제작 포함',
@@ -432,9 +432,9 @@ const products = {
         name: '워드프레스 백링크 프로페셔널 패키지',
         price: '11.5만원',
         originalPrice: '23만원',
-        badge: '🔥 주문많음',
+        badge: '주문많음',
         features: [
-            '🔥 주문많음',
+            '주문많음',
             '백링크 30,000개 대규모 생성',
             '작업기간: 약 7일 신속 완료',
             '서브 홈페이지 무료 제작 지원',
@@ -476,9 +476,9 @@ const products = {
         name: '워드프레스 백링크 프리미엄 패키지',
         price: '21.5만원',
         originalPrice: '43만원',
-        badge: '⭐ 추천',
+        badge: '추천',
         features: [
-            '⭐ 추천',
+            '추천',
             '백링크 70,000개 초대량 생성',
             '작업기간: 약 10일 안정적 완료',
             '서브 홈페이지 무료 제작 제공',
@@ -522,9 +522,9 @@ const products = {
         name: '가성비갑 올인원 패키지',
         price: '22.4만원',
         originalPrice: '28만원',
-        badge: '🏆 가성비갑',
+        badge: '가성비갑',
         features: [
-            '🏆 가성비갑',
+            '가성비갑',
             '프로필 백링크 60개 포함',
             '웹2.0 백링크 1,000개 포함',
             '도메인 권한 +30점 상승',
@@ -564,9 +564,9 @@ const products = {
         name: '주문많음 올인원 패키지',
         price: '39.2만원',
         originalPrice: '49만원',
-        badge: '🔥 주문많음',
+        badge: '주문많음',
         features: [
-            '🔥 주문많음',
+            '주문많음',
             '프로필 백링크 125개 포함',
             '웹2.0 백링크 2,500개 포함',
             '도메인 권한 +40점 상승',
@@ -609,9 +609,9 @@ const products = {
         name: '프리미엄 올인원 패키지',
         price: '62.8만원',
         originalPrice: '78.5만원',
-        badge: '⭐ 추천',
+        badge: '추천',
         features: [
-            '⭐ 추천',
+            '추천',
             '프로필 백링크 240개 포함',
             '웹2.0 백링크 5,000개 포함',
             '도메인 권한 +50점 최대 상승',
@@ -655,8 +655,6 @@ const products = {
 
 // 전역 변수
 let selectedProduct = null;
-const reviewPages = {}; // 각 상품의 현재 페이지 추적
-const REVIEWS_PER_PAGE = 8; // 페이지당 후기 개수
 
 // DOM 로드 완료 후 실행
 document.addEventListener('DOMContentLoaded', function() {
@@ -664,7 +662,6 @@ document.addEventListener('DOMContentLoaded', function() {
     initializeFAQ();
     initializeScrollToTop();
     initializeLiveNotifications();
-    initializeProductReviews();
 });
 
 // 이벤트 리스너 초기화
@@ -736,7 +733,7 @@ function selectProduct(productId) {
     if (product.originalPrice) {
         priceHTML = `<span style="text-decoration: line-through; color: #999; margin-right: 10px;">${product.originalPrice}</span>`;
     }
-    priceHTML += `<span style="color: #ff6b6b; font-size: 1.5rem; font-weight: bold;">${product.price}</span>`;
+    priceHTML += `<span style="color: #2c3e50; font-size: 1.5rem; font-weight: bold;">${product.price}</span>`;
     document.getElementById('selectedProductPrice').innerHTML = priceHTML;
 
     // 상품 상세 정보 표시
@@ -746,7 +743,7 @@ function selectProduct(productId) {
         product.features.forEach((feature, index) => {
             if (index === 0 && product.badge) {
                 // 첫 번째 항목은 배지
-                featuresHTML += `<li style="padding: 8px 0; font-weight: bold; color: #667eea;">${feature}</li>`;
+                featuresHTML += `<li style="padding: 8px 0; font-weight: bold; color: #2c3e50;">${feature}</li>`;
             } else {
                 featuresHTML += `<li style="padding: 8px 0; color: #333;">
                     ${feature}
@@ -848,14 +845,14 @@ function showPaymentInfo(orderNumber) {
     // 상품 상세 정보 표시
     const featuresContainer = document.getElementById('paymentProductFeatures');
     if (featuresContainer && product.features) {
-        let featuresHTML = '<h4 style="color: #2c3e50; margin-bottom: 10px; font-size: 1.1rem;">📦 상품 상세 내역</h4>';
+        let featuresHTML = '<h4 style="color: #2c3e50; margin-bottom: 10px; font-size: 1.1rem;">상품 상세 내역</h4>';
         featuresHTML += '<ul style="list-style: none; padding: 0; margin: 0;">';
         product.features.forEach((feature, index) => {
             if (index === 0 && product.badge) {
                 // 첫 번째 항목은 배지
-                featuresHTML += `<li style="padding: 8px 0; font-weight: bold; color: #667eea;">${feature}</li>`;
+                featuresHTML += `<li style="padding: 8px 0; font-weight: bold; color: #2c3e50;">${feature}</li>`;
             } else {
-                featuresHTML += `<li style="padding: 8px 0; color: #333; border-bottom: 1px solid #f0f0f0;">✓ ${feature}</li>`;
+                featuresHTML += `<li style="padding: 8px 0; color: #333; border-bottom: 1px solid #f0f0f0;">• ${feature}</li>`;
             }
         });
         featuresHTML += '</ul>';
@@ -1515,199 +1512,3 @@ function closePolicyModal() {
     document.getElementById('policyModal').style.display = 'none';
     document.body.style.overflow = 'auto';
 }
-
-// 상품 후기 초기화
-function initializeProductReviews() {
-    const productCards = document.querySelectorAll('.product-card');
-
-    productCards.forEach(card => {
-        const productId = card.dataset.product;
-        const product = products[productId];
-
-        // 이미 후기 버튼이 있으면 스킵
-        if (card.querySelector('.reviews-toggle-btn')) {
-            return;
-        }
-
-        // 리뷰가 있는 경우만 버튼 추가
-        if (product && product.reviews && product.reviews.length > 0) {
-            // 초기 페이지를 1로 설정
-            reviewPages[productId] = 1;
-
-            // 후기 보기 버튼 생성
-            const toggleBtn = document.createElement('button');
-            toggleBtn.className = 'reviews-toggle-btn';
-            toggleBtn.dataset.product = productId;
-            toggleBtn.innerHTML = `💬 고객 후기 보기 <span class="reviews-count">(${product.reviews.length}개)</span>`;
-
-            // 후기 섹션 생성
-            const reviewsSection = document.createElement('div');
-            reviewsSection.className = 'product-reviews';
-            reviewsSection.dataset.product = productId;
-            reviewsSection.style.display = 'none';
-
-            // 후기 컨테이너 생성 (후기 목록용)
-            const reviewsContainer = document.createElement('div');
-            reviewsContainer.className = 'reviews-container';
-            reviewsContainer.dataset.product = productId;
-
-            // 페이지네이션 컨테이너 생성
-            const paginationContainer = document.createElement('div');
-            paginationContainer.className = 'reviews-pagination';
-            paginationContainer.dataset.product = productId;
-
-            reviewsSection.appendChild(reviewsContainer);
-            reviewsSection.appendChild(paginationContainer);
-
-            // 신청하기 버튼 뒤에 추가
-            const orderBtn = card.querySelector('.order-now-btn');
-            if (orderBtn) {
-                orderBtn.after(toggleBtn);
-                toggleBtn.after(reviewsSection);
-            }
-
-            // 첫 페이지 렌더링
-            renderReviewsPage(productId, 1);
-
-            // 토글 이벤트 추가
-            toggleBtn.addEventListener('click', () => toggleProductReviews(productId));
-        }
-    });
-}
-
-// 특정 페이지의 후기 렌더링
-function renderReviewsPage(productId, page) {
-    const product = products[productId];
-    if (!product || !product.reviews) return;
-
-    const totalReviews = product.reviews.length;
-    const totalPages = Math.ceil(totalReviews / REVIEWS_PER_PAGE);
-
-    // 페이지 번호 유효성 검사
-    if (page < 1) page = 1;
-    if (page > totalPages) page = totalPages;
-
-    reviewPages[productId] = page;
-
-    // 현재 페이지에 표시할 후기 계산
-    const startIndex = (page - 1) * REVIEWS_PER_PAGE;
-    const endIndex = Math.min(startIndex + REVIEWS_PER_PAGE, totalReviews);
-    const reviewsToShow = product.reviews.slice(startIndex, endIndex);
-
-    // 후기 HTML 생성
-    const reviewsHTML = reviewsToShow.map(review => `
-        <div class="review-item">
-            <div class="review-header">
-                <div class="review-rating">${'⭐'.repeat(review.rating)}</div>
-                <div class="review-meta">
-                    <span class="review-author">${review.author}</span>
-                    <span class="review-date">${review.date}</span>
-                </div>
-            </div>
-            <p class="review-content">${review.content}</p>
-        </div>
-    `).join('');
-
-    // 후기 컨테이너 업데이트
-    const reviewsContainer = document.querySelector(`.reviews-container[data-product="${productId}"]`);
-    if (reviewsContainer) {
-        reviewsContainer.innerHTML = reviewsHTML;
-    }
-
-    // 페이지네이션 업데이트
-    updatePagination(productId, page, totalPages);
-}
-
-// 페이지네이션 UI 업데이트
-function updatePagination(productId, currentPage, totalPages) {
-    const paginationContainer = document.querySelector(`.reviews-pagination[data-product="${productId}"]`);
-    if (!paginationContainer) return;
-
-    let paginationHTML = '';
-
-    // 이전 버튼
-    if (currentPage > 1) {
-        paginationHTML += `<button class="pagination-btn prev-btn" data-product="${productId}" data-page="${currentPage - 1}">← 이전</button>`;
-    } else {
-        paginationHTML += `<button class="pagination-btn prev-btn disabled" disabled>← 이전</button>`;
-    }
-
-    // 페이지 번호 버튼
-    const maxVisiblePages = 5;
-    let startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
-    let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
-
-    // 끝 페이지 기준으로 시작 페이지 조정
-    if (endPage - startPage < maxVisiblePages - 1) {
-        startPage = Math.max(1, endPage - maxVisiblePages + 1);
-    }
-
-    // 첫 페이지
-    if (startPage > 1) {
-        paginationHTML += `<button class="pagination-btn page-num" data-product="${productId}" data-page="1">1</button>`;
-        if (startPage > 2) {
-            paginationHTML += `<span class="pagination-dots">...</span>`;
-        }
-    }
-
-    // 페이지 번호들
-    for (let i = startPage; i <= endPage; i++) {
-        const activeClass = i === currentPage ? 'active' : '';
-        paginationHTML += `<button class="pagination-btn page-num ${activeClass}" data-product="${productId}" data-page="${i}">${i}</button>`;
-    }
-
-    // 마지막 페이지
-    if (endPage < totalPages) {
-        if (endPage < totalPages - 1) {
-            paginationHTML += `<span class="pagination-dots">...</span>`;
-        }
-        paginationHTML += `<button class="pagination-btn page-num" data-product="${productId}" data-page="${totalPages}">${totalPages}</button>`;
-    }
-
-    // 다음 버튼
-    if (currentPage < totalPages) {
-        paginationHTML += `<button class="pagination-btn next-btn" data-product="${productId}" data-page="${currentPage + 1}">다음 →</button>`;
-    } else {
-        paginationHTML += `<button class="pagination-btn next-btn disabled" disabled>다음 →</button>`;
-    }
-
-    paginationContainer.innerHTML = paginationHTML;
-
-    // 페이지네이션 버튼 이벤트 리스너 추가
-    paginationContainer.querySelectorAll('.pagination-btn:not(.disabled)').forEach(btn => {
-        btn.addEventListener('click', function() {
-            const page = parseInt(this.dataset.page);
-            const productId = this.dataset.product;
-            renderReviewsPage(productId, page);
-
-            // 후기 섹션 상단으로 부드럽게 스크롤
-            const reviewsSection = document.querySelector(`.product-reviews[data-product="${productId}"]`);
-            if (reviewsSection) {
-                reviewsSection.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-            }
-        });
-    });
-}
-
-// 후기 토글 함수
-function toggleProductReviews(productId) {
-    const reviewsSection = document.querySelector(`.product-reviews[data-product="${productId}"]`);
-    const toggleBtn = document.querySelector(`.reviews-toggle-btn[data-product="${productId}"]`);
-
-    if (reviewsSection && toggleBtn) {
-        const isVisible = reviewsSection.style.display !== 'none';
-
-        if (isVisible) {
-            reviewsSection.style.display = 'none';
-            toggleBtn.innerHTML = `💬 고객 후기 보기 <span class="reviews-count">(${products[productId].reviews.length}개)</span>`;
-        } else {
-            reviewsSection.style.display = 'block';
-            toggleBtn.innerHTML = `💬 고객 후기 닫기 <span class="reviews-count">(${products[productId].reviews.length}개)</span>`;
-
-            // 부드럽게 스크롤
-            setTimeout(() => {
-                reviewsSection.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-            }, 100);
-        }
-    }
-} 
