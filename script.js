@@ -691,7 +691,7 @@ function initializeEventListeners() {
 
     // 계좌번호 복사 버튼
     document.getElementById('copyAccount').addEventListener('click', function() {
-        copyToClipboard('9002-1439-7622-7');
+        copyToClipboard('3333375229090');
     });
 
     // 입금 확인 버튼
