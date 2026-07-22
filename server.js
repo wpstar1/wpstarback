@@ -203,8 +203,15 @@ function createOrderTelegramMessage(order) {
     if (order.keywords) {
         message += `\n• 키워드: ${order.keywords}`;
     }
-    
-    message += `\n• 이메일: ${order.email}
+
+    message += `\n• 이메일: ${order.email}`;
+
+    // 하고싶은 말이 있는 경우에만 표시
+    if (order.message) {
+        message += `\n• 하고싶은 말: ${order.message}`;
+    }
+
+    message += `
 
 💰 <b>입금 계좌:</b>
 ${CONFIG.bankAccount.bank} ${CONFIG.bankAccount.account} (${CONFIG.bankAccount.holder})

@@ -768,9 +768,11 @@ function setupFormFields(productId) {
     
     // 도메인 권한 상승 상품인지 확인
     if (productId.startsWith('domain-')) {
-        // 도메인 권한 상승: 키워드 불필요
-        keywordsGroup.style.display = 'none';
+        // 도메인 권한 상승: 키워드 선택 입력 (노출하되 필수 아님)
+        keywordsGroup.style.display = 'block';
         keywordsInput.required = false;
+        keywordsInput.placeholder = '순위를 올리고 싶은 키워드 (선택, 쉼표로 구분)';
+        keywordsGroup.querySelector('label').textContent = '타겟 키워드 (선택)';
     } else {
         // 모든 백링크 상품: 키워드 1개 이상
         keywordsGroup.style.display = 'block';
@@ -787,6 +789,7 @@ async function submitOrder() {
         product: selectedProduct,
         website: formData.get('website'),
         keywords: formData.get('keywords') || '', // 키워드가 없을 수도 있음
+        message: formData.get('message') || '', // 하고싶은 말 (선택)
         email: formData.get('email'),
         timestamp: new Date().toISOString()
     };
@@ -835,6 +838,7 @@ function showPaymentInfo(orderNumber) {
         product: selectedProduct,
         website: document.getElementById('website').value,
         keywords: document.getElementById('keywords').value,
+        message: document.getElementById('message').value,
         email: document.getElementById('email').value
     };
 
@@ -992,6 +996,7 @@ async function sendTelegramPaymentNotification(orderData) {
 • 웹사이트: ${orderData.website}
 • 키워드: ${orderData.keywords || '없음'}
 • 이메일: ${orderData.email}
+• 하고싶은 말: ${orderData.message || '없음'}
 
 ⏰ 입금 확인 요청 시간: ${new Date().toLocaleString('ko-KR')}
 
@@ -1045,6 +1050,7 @@ async function sendTelegramViaServer(orderData) {
             price: product.price,
             website: orderData.website,
             keywords: orderData.keywords || '없음',
+            message: orderData.message || '없음',
             email: orderData.email,
             timestamp: new Date().toISOString(),
             status: 'pending'
@@ -1071,6 +1077,7 @@ async function sendTelegramViaServer(orderData) {
 🌐 웹사이트: ${orderData.website}
 🎯 키워드: ${orderData.keywords || '없음'}
 📧 이메일: ${orderData.email}
+💬 하고싶은 말: ${orderData.message || '없음'}
 ⏰ 시간: ${new Date().toLocaleString('ko-KR')}
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 관리자님, 입금을 확인해주세요!
