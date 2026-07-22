@@ -1430,3 +1430,146 @@ html {
         animation: none !important;
     }
 }
+
+/* ============================================================
+   리뉴얼 레이어 — 정돈된 브랜드 톤 (AI티 최소화)
+   Pretendard 웹폰트 · 절제된 팔레트 · 고급 프리미엄 강조
+   ============================================================ */
+:root {
+    --ink: #1b2733;          /* 딥 슬레이트 네이비 (제목/버튼) */
+    --ink-2: #33414f;
+    --accent: #c8a24b;       /* 절제된 골드 (신뢰/프리미엄 포인트) */
+    --accent-strong: #b5892f;
+    --bg: #f5f6f8;           /* 부드러운 오프화이트 배경 */
+    --card: #ffffff;
+    --line: #e7eaef;         /* 은은한 경계선 */
+    --muted: #6b7683;
+    --shadow-sm: 0 2px 8px rgba(27, 39, 51, 0.06);
+    --shadow-md: 0 10px 30px rgba(27, 39, 51, 0.08);
+}
+
+body {
+    font-family: 'Pretendard', 'Pretendard Variable', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', system-ui, sans-serif;
+    background-color: var(--bg);
+    color: #2a3540;
+    letter-spacing: -0.01em;
+}
+
+h1, h2, h3, h4, .category-title, .hero h2 {
+    letter-spacing: -0.025em;
+    font-weight: 800;
+}
+p { letter-spacing: -0.01em; }
+
+/* ---------- 헤더 ---------- */
+header::before {
+    background: linear-gradient(180deg, rgba(15, 23, 32, 0.55) 0%, rgba(15, 23, 32, 0.35) 100%);
+}
+header h1 { font-weight: 800; letter-spacing: -0.03em; text-shadow: 0 2px 12px rgba(0,0,0,0.35); }
+header p { font-weight: 500; }
+
+/* ---------- 히어로 ---------- */
+.hero {
+    background: var(--card);
+    border: 1px solid var(--line);
+    box-shadow: var(--shadow-md);
+    border-radius: 18px;
+}
+.hero h2 { color: var(--ink); }
+.hero p { color: var(--muted); }
+.hero-promo {
+    background: #fbfaf6;
+    border-left: 3px solid var(--accent);
+    box-shadow: none;
+    border-radius: 10px;
+}
+.cta-button {
+    background: linear-gradient(135deg, var(--accent-strong), var(--accent)) !important;
+    color: #201400 !important;
+    font-weight: 800 !important;
+    letter-spacing: -0.01em;
+    border-radius: 12px !important;
+    box-shadow: 0 6px 18px rgba(200, 162, 75, 0.32) !important;
+    border: none !important;
+}
+.cta-button:hover { transform: translateY(-2px); box-shadow: 0 10px 24px rgba(200, 162, 75, 0.42) !important; }
+
+/* ---------- 섹션 큰박스 & 헤더 ---------- */
+.product-category {
+    background: var(--card);
+    border: 1px solid var(--line);
+    box-shadow: var(--shadow-md);
+    border-radius: 18px;
+}
+.category-title {
+    background: var(--ink) !important;
+    color: #fff !important;
+    border-radius: 14px !important;
+    box-shadow: inset 0 3px 0 var(--accent), 0 8px 22px rgba(27, 39, 51, 0.16) !important;
+    letter-spacing: -0.02em;
+}
+
+/* ---------- 상품 카드 공통 ---------- */
+.product-card {
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    box-shadow: var(--shadow-sm);
+}
+.product-card:hover {
+    border-color: var(--accent);
+    box-shadow: 0 14px 32px rgba(27, 39, 51, 0.12);
+}
+.product-card h3 { color: var(--ink); font-weight: 800; }
+.sale-price { color: var(--ink); }
+.product-card li:before { color: var(--accent); }
+
+/* ---------- 버튼 ---------- */
+.select-btn, .order-now-btn {
+    background: var(--ink) !important;
+    border-radius: 11px !important;
+    font-weight: 700 !important;
+    letter-spacing: -0.01em;
+}
+.select-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(27, 39, 51, 0.28); }
+
+/* ============================================================
+   올인원 섹션 — 형광 네온 → 고급 프리미엄 강조로 톤다운
+   ============================================================ */
+#bundle-section.product-category {
+    border: 1.5px solid var(--accent) !important;
+    background: linear-gradient(180deg, #fffdf7 0%, #ffffff 55%) !important;
+    box-shadow: 0 12px 36px rgba(200, 162, 75, 0.18), 0 2px 10px rgba(27, 39, 51, 0.06) !important;
+    animation: none !important;
+}
+#bundle-section .category-title.bundle-neon-title {
+    background: linear-gradient(135deg, var(--ink) 0%, #26445e 100%) !important;
+    box-shadow: inset 0 3px 0 var(--accent), 0 10px 26px rgba(27, 39, 51, 0.22) !important;
+    text-shadow: none !important;
+    animation: none !important;
+}
+/* 카드 반짝임/글로우 제거 */
+#bundle-section .product-card {
+    animation: none !important;
+}
+#bundle-section .product-card::after {
+    display: none !important;
+}
+/* 프리미엄 올인원 — 골드로 절제되게 강조 */
+#bundle-section .product-card.popular {
+    animation: none !important;
+    border: 2px solid var(--accent) !important;
+    box-shadow: 0 14px 34px rgba(200, 162, 75, 0.24) !important;
+    padding-top: 3rem;
+}
+#bundle-section .product-card.popular::before {
+    content: "BEST" !important;
+    background: linear-gradient(135deg, var(--accent-strong), var(--accent)) !important;
+    color: #201400 !important;
+    letter-spacing: 1px;
+    animation: none !important;
+    box-shadow: 0 3px 10px rgba(181, 137, 47, 0.4) !important;
+}
+#bundle-section .product-card.popular .select-btn {
+    background: linear-gradient(135deg, var(--accent-strong), var(--accent)) !important;
+    color: #201400 !important;
+}
